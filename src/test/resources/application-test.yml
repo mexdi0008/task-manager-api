@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:taskmanager;DB_CLOSE_DELAY=-1
+    username: sa
+    password: ""
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+
+app:
+  jwt:
+    secret: dGVzdC1zZWNyZXQta2V5LWZvci11bml0LXRlc3RzLW9ubHktMDEyMzQ1Njc4OQ==
